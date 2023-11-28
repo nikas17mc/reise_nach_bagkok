@@ -1,0 +1,100 @@
+sytle text 
+
+/* Change font color */
+body {
+    color: #333;
+}
+
+/* Set font size and family */
+h1 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+/* Make text bold */
+p {
+    font-weight: bold;
+}
+
+hintergrund
+
+/* Set background color */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Set background image */
+header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+}
+
+box model
+
+/* Set padding and margin */
+div {
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Set border */
+img {
+    border: 1px solid #ccc;
+}
+
+flexbox
+
+/* Create a flex container */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style flex items */
+.flex-item {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+Media Queries (Responsive Design)
+
+/* Styles for screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+Animations
+
+/* Rotate an element */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply the rotation animation to an element */
+.spinner {
+    animation: rotate 2s infinite linear;
+}
+
+externe ccs datei
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Your CSS code goes here */
+    </style>
+    <title>Your Page Title</title>
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+</body>
+</html>
