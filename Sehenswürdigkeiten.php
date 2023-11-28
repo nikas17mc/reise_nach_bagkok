@@ -1,4 +1,4 @@
-SEHENSWÜRDIGKEITEN CODE:
+SEHENSWÜRDIGKEITEN CODE
 <!DOCTYPE html>
 <html lang="de">
 <head>
