@@ -20,7 +20,7 @@ HOTELS MIT 4 STERNE:
 -Novotel Bangkok Platinum Pratunam
 -Livotel Hotel Hua Mak
 -Novotel Bangkok on Siam Square
--Holiday Inn Bangkok,an IHG Hotel
+-Lebua At State Tower, Bangkok
 
 HOTELS MIT 5 STERNE:
 -Kimpton Maa-Lai Bangkok
