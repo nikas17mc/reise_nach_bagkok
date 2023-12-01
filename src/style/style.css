@@ -1,0 +1,191 @@
+:root{
+    --b:black;
+    --w:white;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    color: var(--w);
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.left-column,
+.right-column {
+    flex: 35%;
+    padding: 20px;
+    background: #3498db;
+    color: var(--w);
+    text-align: left;
+}
+
+.middle-column {
+    flex: 60%;
+    padding: 20px;
+    background: #f1c40f;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: var(--w);
+    text-align: center;
+}
+
+#auswahl {
+    width: 100%;
+    display: block;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select,
+input,
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+    background-color: var(--w);
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #333;
+    padding-right: 25px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+#sendB {
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    color: var(--w);
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#sendB:hover {
+    background: linear-gradient(45deg, #2ecc71, #3498db);
+}
+
+.result_box {
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 11px;
+    background: var(--w);
+    margin-top: 16px;
+}
+
+.depLoc_outer_box{
+    width:100%;
+    height:auto;
+    background:var(--w);
+    border-radius: 8px;
+    padding:10px;
+    margin-left:-4%;
+}
+.depLoc_inner_box{
+    width:100%;
+    color:black;
+}
+.depLoc_txt{
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow{
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time_txt{
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+.cost_txt{
+    margin-top:-2%;
+}
+.txt_name_time{
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-right:34%;
+    margin-left:-6%;
+}
+.lineTime{
+    display:inline-block;
+    width:55%;
+    height:2px;
+    padding: 1px;
+    background:black;
+    margin-bottom: 1px;
+}
+.line_start, .line_end{
+    display:inline-block;
+    width:2px;
+    border:2px black solid;
+    background:white;
+    padding:1px;
+}
+.txt_name_cost_unl{
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+#extras {
+    scrollbar-width: none;
+}
+
+#upB, #downB {
+    background-color: #ff0000;
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.4s ease;
+}
+#upB:hover,#downB:hover{
+    background-color: #555;
+}
