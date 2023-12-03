@@ -1,8 +1,6 @@
-<?php include('./src/extra/header.php'); ?>
+<?php include('./src/extra/form.php'); ?>
 <!DOCTYPE html>
 <html lang="de">
-
-</html>
 
 <head>
     <title>Reise nach Bangkok</title>
@@ -14,6 +12,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="left-column">
             <?php if (!isset($_POST['submit'])) { ?>
@@ -79,7 +78,7 @@
                         <p>Transportmittel:
                             <?php echo $drive ?>
                         </p>
-                        <?php include('./src/extra/form.php')?>
+                        <?php echo something[$_POST["drive"]] ?>
                         <p>Sterne:
                             <?php echo $star ?>
                         </p>

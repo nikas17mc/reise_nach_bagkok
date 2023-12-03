@@ -1,6 +1,6 @@
 let info; 
 let cur = document.getElementById('cur'); 
-let url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur/thb.json"; 
+let url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur/thb.json?" + Math.random(); 
 let downB = document.getElementById('downB');
 let upB = document.getElementById('upB');
 function numberValidate(number) { number.value = number.value.replace(/[^0-9.,]/g, ""); 
@@ -21,7 +21,7 @@ document.getElementById("amount").onkeyup = function () {
 };
 window.onscroll = function() {
     document.body.scrollTop > 400 || document.documentElement.scrollTop > 400 ? downB.style.display = "none" : downB.style.display = "block";
-     document.body.scrollTop > 450 || document.documentElement.scrollTop > 450 ? upB.style.display = "block" : upB.style.display = "none";
+    document.body.scrollTop > 460 || document.documentElement.scrollTop > 460 ? upB.style.display = "block" : upB.style.display = "none";
 };
 function down_jump(){
     window.scrollTo({
@@ -41,7 +41,6 @@ function up_jump(){
 const opn = document.querySelector('[data-open-modal]');
 const cls = document.querySelector('[data-close-modal]');
 const mdl = document.querySelector('[data-modal]');
-
 opn.addEventListener("click", () =>{
     mdl.showModal();
 });

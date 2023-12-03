@@ -1,4 +1,3 @@
 <footer style="margin-top: 20px;">
-    <p>Collaborators of this Project are:</p>
-    <p>Nikolai; Leon; Nils; Tobias</p>
+    <p>Collaborator of this Project are: <a href="https://github.com/nikas17mc">にこらい</a></p>
 </footer>

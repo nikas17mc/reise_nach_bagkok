@@ -5,12 +5,15 @@
 
 
 body {
+    background-image:url(../picture/background.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #3498db, #2ecc71);
     color: var(--w);
     text-align: center;
     flex-direction: column;
@@ -172,7 +175,6 @@ select:hover {
 
 #upB, #downB {
     background-color: #ff0000;
-    display: block;
     position: fixed;
     bottom: 40px;
     right: 30px;
@@ -186,6 +188,21 @@ select:hover {
     font-size: 18px;
     transition: background-color 0.4s ease;
 }
+#upB{display:none;}
 #upB:hover,#downB:hover{
     background-color: #555;
+}
+footer{
+    margin-top: 20px;
+    width:auto;
+    color:#333;
+    background:white;
+    border-radius:11px;
+    padding:10px;
+}
+footer p{
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

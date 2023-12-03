@@ -1,8 +1,8 @@
 flug:
-dus > bang = 9,084.00 km
 ber > bang = 8,661.36 km
 frank > bang = 8,975.25 km
 mun > bang = 8,801.22 km
+dus > bang = 9,084.00 km
 ham > bang = 8,822.00 km
 stut > bang = 8,965.74 km
 col > bang = 9,077.59 km
@@ -12,7 +12,7 @@ col > bang = 9,077.59 km
 auto:
 dus > bang = 12,306.2 km
 ber > bang = 11,783.9 km
-frank > bang = 12,356,2 km
+frank > bang = 12,356.2 km
 mun > bang = 12,294.5 km
 ham > bang = 12,063.8 km
 stut > bang = 12,302.13 km
