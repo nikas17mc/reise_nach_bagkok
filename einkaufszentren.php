@@ -98,7 +98,3 @@ echo "<p>$standort</p>";
 </html>
 
 
-
-
-
-
