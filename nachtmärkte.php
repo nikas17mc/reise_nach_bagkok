@@ -1,3 +1,4 @@
+
 NACHTMARKT CODE(CHATUCHAK FRIDAY NIGHT MARKET):
 
 <!DOCTYPE html>
@@ -20,7 +21,8 @@ $oeffnungszeitenWochenende = "Sa-So von 9-18 Uhr";
 $freitagNightMarket = "Der Chatuchak Friday Night Market ist am Freitag von 18 Uhr bis Mitternacht geöffnet.";
 
 // Informationen zum Spazieren
-$bummelnInfo = "Mittlerweile besuchen wir den Chatuchak Weekend Market gerne zum spazieren, zum richtigen Nachtmarkt wird der Chatuchak Market nämlich nur freitags, da hat er von 18 Uhr bis Mitternacht geöffnet. Mittwoch, Donnerstags und Samstags kannst du dich ab etwa 9 Uhr ins Shopping-Paradies begeben.";
+$bummelnInfo = "Mittlerweile besuchen wir den Chatuchak Weekend Market gerne zum spazieren, zum richtigen Nachtmarkt wird der Chatuchak Market nämlich nur Freitags,
+da hat er von 18 Uhr bis Mitternacht geöffnet. Mittwoch, Donnerstags und Samstags kannst du dich ab etwa 9 Uhr ins Shopping-Paradies begeben.";
 
 // Ausgabe der Informationen
 echo "<h1>$marktName</h1>";
@@ -31,8 +33,8 @@ echo "<p>$oeffnungszeitenWoche</p>";
 echo "<p>$oeffnungszeitenWochenende</p>";
 echo "<p>$freitagNightMarket</p>";
 
-echo "<h2>Bummeln:</h2>";
-echo "<p>$bummelnInfo</p>";
+echo "<h2>Spazieren:</h2>";
+echo "<p>$SpazierenInfo</p>";
 ?>
 
 </body>
