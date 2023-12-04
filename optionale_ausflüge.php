@@ -1,5 +1,5 @@
 
-OPTIONALE AUSFLÜGE CODE
+OPTIONALE AUSFLÜGE CODE:
 
 <!DOCTYPE html>
 <html lang="de">
