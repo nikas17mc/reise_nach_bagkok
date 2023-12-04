@@ -45,7 +45,57 @@ echo "<p>$beliebteSehenswuerdigkeiten</p>";
 
 EINLAUFSZENTREN CODE(MBK CENTER)
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBK Center</title>
+</head>
+<body>
 
+<?php
+// Informationen über das MBK Center
+$centerName = "MBK Center";
+$beschreibung = "Bekannt für umfangreiche Einkaufsmöglichkeiten mit einer breiten Palette an Produkten.";
+
+// Einkaufsmöglichkeiten
+$einkaufenInfo = "Das MBK Center ist bekannt für seine umfangreichen Einkaufsmöglichkeiten mit einer breiten Palette an Produkten, darunter Kleidung, Accessoires, Elektronik, Mobiltelefone, Kosmetika, Souvenirs und vieles mehr. Es ist vor allem für seine erschwinglichen Preise und seine Feilschkultur bekannt.";
+
+// Elektronik-Zone
+$elektronikZone = "Einer der Höhepunkte des MBK ist die spezielle Elektronik-Zone, in der Sie eine Vielzahl von Gadgets, Mobiltelefonen, Kameras und Zubehör finden können.";
+
+// Food Court
+$foodCourt = "Das Einkaufszentrum verfügt über einen abwechslungsreichen Food Court, der eine Vielzahl von lokalen und internationalen Gerichten zu günstigen Preisen anbietet.";
+
+// Unterhaltung
+$unterhaltung = "Das MBK Center verfügt über einen Unterhaltungs- und Freizeitkomplex, der ein Kino, Karaoke und Spielmöglichkeiten umfasst.";
+
+// Standortinformationen
+$standort = "Das MBK Center liegt zentral im Siam-Einkaufsviertel und ist daher von verschiedenen Teilen Bangkoks aus leicht zu erreichen. Es befindet sich in der Nähe anderer beliebter Einkaufsziele wie Siam Paragon, CentralWorld und Siam Discovery.";
+
+// Ausgabe der Informationen
+echo "<h1>$centerName</h1>";
+echo "<p>$beschreibung</p>";
+
+echo "<h2>Einkaufsmöglichkeiten:</h2>";
+echo "<p>$einkaufenInfo</p>";
+
+echo "<h2>Elektronik-Zone:</h2>";
+echo "<p>$elektronikZone</p>";
+
+echo "<h2>Food Court:</h2>";
+echo "<p>$foodCourt</p>";
+
+echo "<h2>Unterhaltung:</h2>";
+echo "<p>$unterhaltung</p>";
+
+echo "<h2>Standort:</h2>";
+echo "<p>$standort</p>";
+?>
+
+</body>
+</html>
 
 
 
