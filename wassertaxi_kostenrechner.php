@@ -1,49 +1,26 @@
+
+DAS GÜNSTIGSTE VERKEHRSMITTEL CODE(WASSERTAXI):
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wassertaxi Kostenrechner</title>
+    <title>Wassertaxi in Bangkok</title>
 </head>
 <body>
 
 <?php
+// Informationen über das Wassertaxi
+$verkehrsmittel = "Wassertaxi";
+$grundgebuehr = 1.00; // Grundgebühr in Euro
+$preisProKilometer =  // Preis pro Kilometer in Euro
+$stauGebuehrProMinute = 2.00; // Gebühr im Stau pro Minute in Baht
 
-// Funktion zur Berechnung der Wassertaxi-Kosten
-function berechneWassertaxiKosten($kilometer, $geschwindigkeit, $stauzeit) {
-    $grundgebuehr = 1;  // in Euro
-    $preisProKilometer = 2;  // in Euro
-    $stauGebuehrProMinute = 2;  // in Baht
-
-    // Berechnung der Kosten ohne Stau
-    $kostenOhneStau = $grundgebuehr + ($kilometer * $preisProKilometer);
-
-    // Berechnung der Kosten mit Stau
-    if ($geschwindigkeit < 6) {
-        $stauGebuehr = $stauzeit * $stauGebuehrProMinute;
-        $kostenMitStau = $kostenOhneStau + $stauGebuehr;
-    } else {
-        $kostenMitStau = $kostenOhneStau;
-    }
-
-    return $kostenMitStau;
-}
-
-// Beispielwerte für die Wassertaxi-Fahrt
-$kilometer = 10;
-$geschwindigkeit = 8;  // in Stundenkilometern
-$stauzeit = 15;  // in Minuten
-
-// Kosten berechnen
-$wassertaxiKosten = berechneWassertaxiKosten($kilometer, $geschwindigkeit, $stauzeit);
-
-// Ausgabe
-echo "<h2>Wassertaxi Kostenrechner</h2>";
-echo "<p>Strecke: $kilometer Kilometer</p>";
-echo "<p>Geschwindigkeit: $geschwindigkeit km/h</p>";
-echo "<p>Stauzeit: $stauzeit Minuten</p>";
-echo "<p>Gesamtkosten: $wassertaxiKosten Baht</p>";
-
+// Ausgabe der Informationen
+echo "<h1>Günstigstes Verkehrsmittel in Bangkok: $verkehrsmittel</h1>";
+echo "<p>Der Taxipreis berechnet sich aus einer Grundgebühr von ca. $grundgebuehr Euro und einem Preis von $preisProKilometer Euro pro Kilometer.</p>";
+echo "<p>Im Stau, bei einer Geschwindigkeit von weniger als sechs Stundenkilometern, wird zudem eine Gebühr von $stauGebuehrProMinute Baht pro Minute fällig.</p>";
 ?>
 
 </body>
