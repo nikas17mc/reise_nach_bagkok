@@ -1,5 +1,5 @@
 
-EINKAUFSZENTREN CODE(CENTRAL WORLD):
+EINKAUFSZENTRUM CODE(CENTRAL WORLD):
 
 <!DOCTYPE html>
 <html lang="de">
@@ -43,7 +43,7 @@ echo "<p>$beliebteSehenswuerdigkeiten</p>";
 </body>
 </html>
 
-EINLAUFSZENTREN CODE(MBK CENTER)
+EINLAUFSZENTRUM CODE(MBK CENTER)
 
 <!DOCTYPE html>
 <html lang="de">
@@ -97,4 +97,39 @@ echo "<p>$standort</p>";
 </body>
 </html>
 
+
+EINKAUFSZENTRUM CODE(SIAM PARAGON):
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Paragon Einkaufszentrum</title>
+</head>
+<body>
+
+<?php
+// Informationen über das Siam Paragon Einkaufszentrum
+$einkaufInfo = "Einkaufen: Siam Paragon ist bekannt für seine hochwertigen und luxuriösen Einzelhandelsgeschäfte, die eine große Auswahl an internationalen und Designermarken anbieten. Das Einkaufszentrum bietet ein vielfältiges Einkaufserlebnis, darunter Mode, Schmuck, Elektronik, Schönheitsprodukte und vieles mehr.";
+
+$unterhaltungInfo = "Unterhaltung: Das Einkaufszentrum beherbergt verschiedene Unterhaltungsmöglichkeiten, darunter einen großen Kinokomplex, ein Aquarium mit dem Thema Ozean namens SEA LIFE Bangkok Ocean World und eine KidZania-Filiale - ein Unterhaltungszentrum für Kinder.";
+
+$essenTrinkenInfo = "Essen und Trinken: Siam Paragon verfügt über eine große Auswahl an Restaurants und Cafés, die von gehobener Küche bis hin zu zwanglosen Lokalen reichen. Besucher finden hier eine Vielzahl von Gerichten für unterschiedliche Geschmäcker.";
+
+$veranstaltungInfo = "Veranstaltungsräume: Im Siam Paragon finden häufig Veranstaltungen, Ausstellungen und Werbeaktionen statt. In den Veranstaltungsräumen des Einkaufszentrums können Modeschauen, Produkteinführungen und andere kulturelle Aktivitäten stattfinden.";
+
+$standortInfo = "Standort: Siam Paragon befindet sich im Siam-Gebiet, einem bekannten Einkaufs- und Unterhaltungsviertel in Bangkok. Es befindet sich in der Nähe anderer beliebter Einkaufszentren wie MBK Center, CentralWorld und Siam Discovery.";
+
+// Ausgabe der Informationen
+echo "<h1>Siam Paragon Einkaufszentrum</h1>";
+echo "<p>$einkaufInfo</p>";
+echo "<p>$unterhaltungInfo</p>";
+echo "<p>$essenTrinkenInfo</p>";
+echo "<p>$veranstaltungInfo</p>";
+echo "<p>$standortInfo</p>";
+?>
+
+</body>
+</html>
 
