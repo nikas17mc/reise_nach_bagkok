@@ -1,4 +1,4 @@
-NACHTMÄRKTE CODE(CHATUCHAK FRIDAY NIGHT MARKET):
+NACHTMARKT CODE(CHATUCHAK FRIDAY NIGHT MARKET):
 
 <!DOCTYPE html>
 <html lang="de">
@@ -37,3 +37,51 @@ echo "<p>$bummelnInfo</p>";
 
 </body>
 </html>
+
+
+NACHTMARKT CODE(Asiatique The Riverfront):
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asiatique The Riverfront</title>
+</head>
+<body>
+
+<?php
+// Informationen über Asiatique The Riverfront
+$ortName = "Asiatique The Riverfront";
+$beschreibung = "Ein Einkaufs- und Unterhaltungsviertel am Ufer des Chao Phraya-Flusses in Bangkok.";
+
+// Öffnungszeiten
+$oeffnungszeiten = "Täglich von 17:00 Uhr bis 24:00 Uhr";
+
+// Attraktionen
+$attraktionen = "Asiatique The Riverfront bietet eine Vielzahl von Attraktionen, darunter Einkaufsmöglichkeiten, Restaurants, Bars, Shows und mehr.";
+
+// Riesenrad
+$riesenrad = "Ein Höhepunkt ist das Riesenrad, das einen atemberaubenden Blick auf den Fluss und die Stadt bietet.";
+
+// Lage
+$standort = "Lage am Ufer des Chao Phraya-Flusses, leicht erreichbar von verschiedenen Teilen der Stadt.";
+
+// Ausgabe der Informationen
+echo "<h1>$ortName</h1>";
+echo "<p>$beschreibung</p>";
+
+echo "<h2>Öffnungszeiten:</h2>";
+echo "<p>$oeffnungszeiten</p>";
+
+echo "<h2>Attraktionen:</h2>";
+echo "<p>$attraktionen</p>";
+echo "<p>$riesenrad</p>";
+
+echo "<h2>Lage:</h2>";
+echo "<p>$standort</p>";
+?> 
+    
+</body>
+</html>
+
