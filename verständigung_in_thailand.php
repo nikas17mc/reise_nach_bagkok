@@ -1,0 +1,6 @@
+
+-VERSTÄNDIGUNG IN THAILAND CODE:
+
+
+
+
