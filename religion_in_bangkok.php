@@ -1,5 +1,5 @@
 
-RELIGION IN THAILAND CODE:
+RELIGION IN BANGKOK CODE:
 
 <!DOCTYPE html>
 <html lang="en">
