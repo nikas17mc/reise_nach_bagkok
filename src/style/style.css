@@ -22,11 +22,11 @@ header {
     position: sticky;
     /* height: 20%; */
     background: var(--l_transper);
-    padding:20px;
+    padding: 20px;
 }
 
 .header_p {
-    padding:20px;
+    padding: 20px;
     background: white;
     border-radius: 11px;
     text-align: center;
@@ -35,7 +35,8 @@ header {
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 }
-.header_p p{
+
+.header_p p {
     color: rgb(20, 20, 20);
     font-size: 20px;
     font-weight: 700;
@@ -45,32 +46,78 @@ header {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .left_container {
-    width: 30%;
+    width: 20%;
+    margin-left: 10px;
     background: white;
     border-radius: 11px;
     box-shadow: 0px 0px 10px gray;
 }
 
-.list_container {}
+.list_container {
+    padding: 4px;
+    margin: 2px;
+}
 
-.list_item {}
+.list_item {
+    margin: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
 
-.box_left {}
+.box_left {
+    margin-right: 5px;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+}
 
-.box_left img {}
+.box_left img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50%;
+}
 
-.box_right {}
+.box_right {
+    padding: 4px;
+}
 
-.box_right p {}
+.box_right a {
+    text-decoration: none;
+}
+
+.box_right p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 .right_container {
-    width: 70%;
+    width: 80%;
     background: white;
     border-radius: 11px;
     box-shadow: 0px 0px 10px gray;
+    margin-left: 10px;
+}
+
+.list_box {
+    padding: 4px;
+    margin:5px;
+    display:none;
+    color:black;
+    background:red;
+}
+
+.modal:target{
+display:block;
 }
