@@ -1,0 +1,36 @@
+
+GOLDENES DREIECK CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das Goldene Dreieck</title>
+</head>
+<body>
+
+<?php
+
+echo "<h1>Das Goldene Dreieck</h1>";
+
+echo "<p>Das Goldene Dreieck ist eine Region in Südostasien, die sich über Teile von Thailand, Laos und Myanmar erstreckt. Historisch gesehen wurde der Begriff 'Goldenes Dreieck' mit dem illegalen Opiumhandel in Verbindung gebracht, der in dieser Region weit verbreitet war. Heutzutage hat sich die Region jedoch weiterentwickelt, und Tourismus ist zu einem wichtigen wirtschaftlichen Faktor geworden.</p>";
+
+echo "<h2>Informationen zum Goldenen Dreieck:</h2>";
+
+echo "<b>Lage:</b> Das Goldene Dreieck liegt im Grenzgebiet von Thailand, Laos und Myanmar. Die wichtigsten Städte in der Nähe sind Chiang Rai in Thailand, Tachileik in Myanmar und Houayxay in Laos.";
+echo "<b>Tourismus:</b> Die Region zieht Touristen aufgrund ihrer einzigartigen kulturellen Vielfalt, Landschaften und traditionellen Dörfern an. Touristen können Bootsfahrten auf dem Mekong-Fluss unternehmen, lokale Märkte besuchen und die reiche Kultur der Bergvölker erleben.";
+
+
+echo "<h2>Beste Route:</h2>";
+
+echo "<b>Startpunkt: Chiang Rai, Thailand:</b> Chiang Rai ist eine häufige Ausgangsbasis für Reisen ins Goldene Dreieck. Besuchen Sie den Weißen Tempel (Wat Rong Khun) und den Blauen Tempel (Wat Rong Suea Ten) in Chiang Rai.";
+echo "<b>Houayxay, Laos:</b> Nehmen Sie einen Flussübergang von Chiang Khong in Thailand nach Houayxay in Laos. Das Visum für Laos kann an der Grenze erworben werden. Erkunden Sie das Dorf und besuchen Sie den Wat Chom Khao Manilat-Tempel.";
+echo "<b>Tachileik, Myanmar:</b> Fahren Sie nach Tachileik in Myanmar. Beachten Sie, dass für die Einreise nach Myanmar ein Visum erforderlich ist. Besuchen Sie lokale Märkte und Sehenswürdigkeiten.";
+echo "<b>Bootstour auf dem Mekong:</b> Machen Sie eine Bootsfahrt auf dem Mekong-Fluss, um die atemberaubende Landschaft zu genießen. Unterwegs können Sie auf kleine Inseln und traditionelle Dörfer stoßen.";
+echo "<b>Rückkehr nach Chiang Rai:</b> Kehren Sie nach Chiang Rai zurück, um Ihre Reise zu beenden.";
+
+?>
+
+</body>
+</html>
