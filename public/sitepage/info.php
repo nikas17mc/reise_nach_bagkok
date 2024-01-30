@@ -202,6 +202,56 @@
             <p id="result">Endergebnis: </p>
         </div>
     </section>
+    <div class="dropdown">
+        <style>
+        <p>Top</p>
+        body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown content links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Move the dropdown content to the top */
+.dropdown-content {
+  top: -150%;
+}
+    </div>
+    </style>
     <footer>
         <p>&copy; 2024 Reise nach Bangkok</p>
     </footer>
@@ -232,6 +282,22 @@
         let res = document.getElementById("result");
         put.value == 0 ? res.innerHTML = "Endergebnis:" + " " : res.innerHTML = "Endergebnis:" + " " + (parseFloat(put.value) * info).toFixed(2) + " ฿";
     };
+</script>
+<script>
+// Optional: Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.style.display === 'block') {
+        openDropdown.style.display = 'none';
+      }
+    }
+  }
+}
+    
 </script>
 <script src="./../../../src/script/script.js"></script>
 </html>
