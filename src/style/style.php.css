@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.rOe {
+    margin-top: 8%;
+}
+.flex-row-a0 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex_bTw {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cBoItP {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 45%;
+    flex-basis: 50%;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.cBoIt a {
+    text-decoration: none;
+    /* width:0;
+    height:0; */
+    border-radius: 8px;
+    color: transparent
+}
+
+.cBoItP:hover {
+    box-shadow: 0px 0px 2px 4px gray;
+}
+
+.iBp {
+    display: flex;
+    justify-content:space-between;
+    object-fit: contain;
+}
+
+.iBp img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.tAnC{
+    text-align: center;
+}
+
+.mToR {
+    margin-right: 30px;
+}
+
+.tBp {
+    flex-basis: 50%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 3px solid gray;
+}
+
+.tBp p {
+    margin: 10px;
+    /* font-size: 20px; */
+    /* font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: black
+}
+
+.eAb {
+    flex-basis:50%;
+    border-top: 3px solid gray;
+}
+
+.mShB {
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    box-shadow: 0px 0px 2px 4px gray;
+    padding:6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mSiE {
+    position: absolute;
+    width:100%;
+    height:100%;
+    inset: 0;
+    display:none
+}
+
+.mSiE iframe {
+    width:100%;
+    height:100%;
+}
+
+.cBoItP:hover > .mSiE {
+    display:block;
+}
